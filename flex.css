@@ -1,0 +1,53 @@
+
+.test{
+    cursor:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+    /* width: 100%;
+    height: 200vh; */
+    /* scroll-behavior: smooth; */
+
+}
+.f{
+    width: 400px;
+    height: 250px;
+    background-color: green;
+
+}
+
+.c{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius:100px;
+    margin-left: 150px;
+    margin-top: 70px;
+
+}
+
+
+
+.demo-typewriter span {
+    color: #262626;
+    overflow: hidden;   
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;   
+    margin: 0 auto;   
+    letter-spacing: .4rem;   
+    animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+  }
+  @keyframes demo-typewriter {
+    from { 
+      width: 0;
+    }
+    to { 
+      width: 100%;
+    }
+  }
+  @keyframes demo-cursor {
+    from, to { 
+      border-color: transparent; 
+  }
+    50% { 
+  border-color: #FF8D8D; 
+    }
+  }
